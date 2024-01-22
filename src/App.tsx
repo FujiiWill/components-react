@@ -1,11 +1,9 @@
-import './App.css'
+import Catalog from './routes/Catalog';
 
-function App() {
+export default function App() {
   return (
     <>
-      
+      <Catalog />
     </>
-  )
+  );
 }
-
-export default App
